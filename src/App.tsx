@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -19,6 +18,9 @@ import AdminLogin from "./pages/admin/AdminLogin";
 import EventManagement from "./pages/admin/EventManagement";
 import GalleryManagement from "./pages/admin/GalleryManagement";
 import ProtectedRoute from "./components/common/ProtectedRoute";
+import Terms from "./components/razorpay/Terms";
+import Privacy from "./components/razorpay/Privacy";
+import Refund from "./components/razorpay/Refund";
 
 const queryClient = new QueryClient();
 
@@ -39,26 +41,30 @@ const App = () => (
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/media" element={<Media />} />
           <Route path="/contact" element={<Contact />} />
-          
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/terms-and-conditions" element={<Terms />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="/refund-policy" element={<Refund />} />
+
           {/* Admin routes - these won't be indexed by search engines */}
           <Route path="/admin/secret/login" element={<AdminLogin />} />
-          <Route 
-            path="/admin/secret/event" 
+          <Route
+            path="/admin/secret/event"
             element={
               <ProtectedRoute>
                 <EventManagement />
               </ProtectedRoute>
-            } 
+            }
           />
-          <Route 
-            path="/admin/secret/gallery" 
+          <Route
+            path="/admin/secret/gallery"
             element={
               <ProtectedRoute>
                 <GalleryManagement />
               </ProtectedRoute>
-            } 
+            }
           />
-          
+
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

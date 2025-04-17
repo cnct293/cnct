@@ -130,17 +130,6 @@ const Footer = () => {
                   Refund Policy
                 </Link>
               </li>
-
-              <li>
-                <Link
-                  to=""
-                  className="text-gray-300 hover:text-white"
-                >
-                  Invoices
-
-
-                </Link>
-              </li>
             </ul>
           </div>
 
