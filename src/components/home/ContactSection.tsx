@@ -13,7 +13,7 @@ const ContactSection = () => {
               send us a message.
             </p>
 
-            <div className="space-y-6 flex flex-row gap-x-24 ">
+            <div className="space-y-6 flex flex-col md:flex-row gap-x-24 ">
               <div className="flex items-start">
                 <div className="mr-4 bg-primary/10 rounded-full p-3">
                   <svg

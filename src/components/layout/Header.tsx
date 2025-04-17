@@ -130,68 +130,6 @@ const Header = () => {
               About Us
             </Link>
 
-            {/* Mobile Programs Dropdown */}
-            <div>
-              <button
-                className="flex items-center justify-between w-full py-2 text-gray-700"
-                onClick={() => toggleDropdown("programs")}
-              >
-                Programs
-                <ChevronDown
-                  className={`h-4 w-4 transition-transform ${
-                    dropdownOpen === "programs" ? "rotate-180" : ""
-                  }`}
-                />
-              </button>
-
-              {dropdownOpen === "programs" && (
-                <div className="pl-4 mt-2 space-y-2 border-l-2 border-gray-100">
-                  <Link
-                    to="/programs/rehab"
-                    className="block py-2 text-gray-700"
-                    onClick={closeMenu}
-                  >
-                    Drug Addict Rehab Centers
-                  </Link>
-                  <Link
-                    to="/programs/orphanages"
-                    className="block py-2 text-gray-700"
-                    onClick={closeMenu}
-                  >
-                    Orphanages (PANNAH)
-                  </Link>
-                  <Link
-                    to="/programs/senior-citizens"
-                    className="block py-2 text-gray-700"
-                    onClick={closeMenu}
-                  >
-                    Senior Citizen Centers
-                  </Link>
-                  <Link
-                    to="/programs/widow-training"
-                    className="block py-2 text-gray-700"
-                    onClick={closeMenu}
-                  >
-                    Widow Training Centers
-                  </Link>
-                  <Link
-                    to="/programs/education"
-                    className="block py-2 text-gray-700"
-                    onClick={closeMenu}
-                  >
-                    Adult Education
-                  </Link>
-                  <Link
-                    to="/programs/emergency"
-                    className="block py-2 text-gray-700"
-                    onClick={closeMenu}
-                  >
-                    Emergency Aid
-                  </Link>
-                </div>
-              )}
-            </div>
-
             <Link
               to="/get-involved"
               className="py-2 text-gray-700"

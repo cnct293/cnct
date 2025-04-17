@@ -228,8 +228,8 @@ const About = () => {
             Our Leadership
           </h2>
 
-          <div className="flex flex-col md:flex-row justify-center gap-x-44">
-            <div className="text-center max-w-md">
+          <div className="flex flex-col md:flex-row justify-center gap-x-44 gap-y-10">
+            <div className="text-center mx-auto max-w-md">
               <div className="mb-4 mx-auto w-48 h-48 rounded-full overflow-hidden">
                 <img
                   src="/assets/chairman.jpeg"
@@ -239,7 +239,7 @@ const About = () => {
               </div>
               <h3 className="text-xl font-semibold">Dr. Ajay Lall</h3>
               <p className="text-gray-600">Founder & Chairman</p>
-              <div className="flex items-center">
+              <div className="flex items-center ">
                 <div className="mr-4 bg-primary/10 rounded-full p-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -257,10 +257,10 @@ const About = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 ">
                     <a
                       href="tel:+917709113999"
-                      className="hover:underline text-primary"
+                      className="hover:underline text-primary "
                     >
                       +91 7709 113 999
                     </a>
@@ -269,7 +269,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="text-center max-w-md">
+            <div className="text-center mx-auto max-w-md">
               <div className="mb-4 mx-auto w-48 h-48 rounded-full overflow-hidden">
                 <img
                   src="/assets/treasurer.jpeg"
@@ -309,7 +309,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="text-center max-w-md">
+            <div className="text-center mx-auto max-w-md">
               <div className="mb-4 mx-auto w-48 h-48 rounded-full overflow-hidden">
                 <img
                   src="/assets/secretary.jpeg"

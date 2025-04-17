@@ -61,7 +61,7 @@ const Contact = () => {
             <div>
               <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
 
-              <div className="space-y-6 flex flex-row gap-x-20">
+              <div className="space-y-6 flex flex-col md:flex-row gap-x-20">
                 <div className="flex items-start">
                   <div className="mr-4 bg-primary/10 rounded-full p-3">
                     <svg
