@@ -302,7 +302,7 @@ const About = () => {
                       href="tel:+919811319535"
                       className="hover:underline text-primary"
                     >
-                      +91 9811 319 535
+                      +91 9999 604 559
                     </a>
                   </p>
                 </div>
@@ -342,7 +342,7 @@ const About = () => {
                       href="tel:+919999604559"
                       className="hover:underline text-primary"
                     >
-                      +91 9999 604 559
+                      +91 9811 319 535
                     </a>
                   </p>
                 </div>

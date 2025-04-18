@@ -31,51 +31,73 @@ const ProgramCard = ({
 const ProgramsHighlight = () => {
   const programs = [
     {
-      title: "Drug Addict Rehab Centers",
+      title: "Cloths Distribution Program",
       description:
-        "Helping individuals overcome addiction through comprehensive rehabilitation programs and support.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      slug: "rehab",
+        "In February 2018, CARE FOR NEEDY CHARITABLE TRUST conducted a clothes distribution program in three flood-affected Panchayats of Thakurganj Block: Bholmara, Burnai, and Nagar. The initiative supported various age groups, focusing on children. Around 80 children received essential clothing, helping them recover and stay warm during tough times caused by the recent flood.",
+      imageUrl: "/assets/Cloths-distribution-program.png",
+      slug: "Clothes Distribution Program",
     },
     {
-      title: "Orphanages (PANNAH)",
+      title: "Material Collection Activity For Trust",
       description:
-        "Providing loving homes, education, and care for children who have lost their parents or families.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        "CNCT organized a material collection drive at Balajee Society on 18th March 2018. Items such as clothes, toys, shoes, and food were collected with the support of kind donors. All collected materials were later distributed to underprivileged individuals and families, helping us extend care and support to those in need.",
+      imageUrl: "/assets/Material-Collection.png",
+      slug: "emergency",
+    },
+    {
+      title: "Center for Drugs Addicts",
+      description:
+        "CARE FOR NEEDY CHARITABLE TRUST runs a dedicated center to support individuals struggling with drug addiction. Our aim is to help them recover through counseling, awareness programs, and rehabilitation support. With compassion and guidance, we work towards transforming lives by helping addicts regain their health, self-respect, and a fresh start toward a better future.",
+      imageUrl: "/assets/Drugs-addicts.png",
+      slug: "emergency",
+    },
+    {
+      title: "Ration & Medicine Distribution",
+      description:
+        "During the COVID-19 pandemic, CARE FOR NEEDY CHARITABLE TRUST stepped forward to support vulnerable families by distributing essential dry ration kits and medicines. Amid lockdowns and uncertainty, our team ensured timely help to those in need, especially daily wage earners and the elderly. This initiative helped hundreds of families survive the crisis with dignity and care.",
+      imageUrl: "/assets/Medicine-distribution.png",
+      slug: "emergency",
+    },
+    {
+      title: "Activities for Poor & Needy ",
+      description:
+        "Actively engaged in various initiatives between 2016 and 2018 to support underprivileged communities. One notable event was celebrating Children’s Day with poor and needy children in the Alandi Pune Slum Wasti. The celebration included educational activities, distribution of gifts, and creating a joyful environment to uplift the spirits of children in need.",
+      imageUrl: "/assets/Activities-for-Poor-Needy.png",
+      slug: "emergency",
+    },
+    {
+      title: "Prod Shiksha Kendra",
+      description:
+        "At Santnagar and Gurudwara Colony, CARE FOR NEEDY CHARITABLE TRUST runs Prod Shiksha Kendra for senior citizens. We offer basic reading, writing, and awareness sessions on legal help, bank accounts, and government schemes. Led by Ms. Pooja Adhav, daily sessions are held morning and evening. Our goal is to help elderly people lead happy, informed lives.",
+      imageUrl: "/assets/Prod-shiksha-kendra.png",
       slug: "orphanages",
+    },
+    {
+      title: "Senior Citizens Rehabilitation",
+      description:
+        "On 26th January 2018, CARE FOR NEEDY CHARITABLE TRUST inaugurated its first Senior Citizens Rehabilitation Center in Lohegaon, Pune. The ceremony included flag hoisting, ribbon cutting by Mr. Ramling Shinde, and lamp lighting by Mrs. Gophane. With support from our Secretary and volunteers, 37 elders were welcomed, served lunch, and offered a peaceful, caring environment.",
+      imageUrl: "/assets/Senior-citizens-rehabilitation.png",
+      slug: "senior-citizens",
+    },
+    {
+      title: "Pulse Polio Abhiyan",
+      description:
+        "On 4th March 2018, CARE FOR NEEDY CHARITABLE TRUST supported Pune Municipal Corporation’s Pulse Polio Abhiyan. Guided by Dr. Maya Lohar and Nurse Meena Harne, we set up 23 booths with 67 volunteers across Dhanori, Vishrantwadi, Lohegaon, and Santnagar. Nearly 1300 children received polio drops. We also assist in tree plantations, blood donation, and free dental camps.",
+      imageUrl: "/assets/Pulse-polio-abhiyan.png",
+      slug: "widow-training",
+    },
+    {
+      title: "Silai Prashikshan Kendra",
+      description:
+        "We have Silai Center at Gurudwara Colony. There Ms. Sandipa Tigga is our co-worker who trains widows and school dropout girls in tailoring skills to become self-dependent and also we provide sewing machine to the ones who gets married off or needy. Till now we have trained 39 widows and 80 Girls. The Center operates from 11am to 3 pm everyday.",
+      imageUrl: "/assets/Silai-prashikshan-kendra.png",
+      slug: "education",
     },
     {
       title: "Senior Citizen Home",
       description:
-        "Creating supportive communities for elderly individuals, ensuring dignity and care in their golden years.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      slug: "senior-citizens",
-    },
-    {
-      title: "Women Training Centers",
-      description:
-        "Empowering widows through skills training, emotional support, and economic opportunities.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1594708767771-a5f3f4642e66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      slug: "widow-training",
-    },
-    {
-      title: "Education (Prod Shiksha)",
-      description:
-        "Providing literacy and educational opportunities for adults to improve their lives and livelihoods.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1544531585-9847b68c8c86?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      slug: "education",
-    },
-    {
-      title: "Emergency Aid",
-      description:
-        "Responding quickly to disasters and emergencies with essential supplies and support for affected families.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1565100160515-b75d262d9618?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        "we prioritize the well-being of our senior citizens by providing a safe and loving environment. Our Senior Citizen Home offers a comfortable and supportive space where elderly individuals can enjoy peace, dignity, and a sense of community. With dedicated staff, nutritious meals, recreational activities, and personal care, we aim to ensure that every senior citizen feels valued and cared for.",
+      imageUrl: "/assets/Senior-citizen-home.png",
       slug: "emergency",
     },
   ];
